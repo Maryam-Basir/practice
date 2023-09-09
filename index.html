@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <input class="input" type="text" name="" id="num1">
+    <input class="input" type="text" name="" id="num2">
+    <button class="btn-cal" onclick="sum()">click</button>
+    <h2>Result:<div class="result" id="text"></div></h2>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
+
+        function sum(data1, data2) {
+            if (isNaN(data1) || isNaN(data2)) {
+                alert("مقادیر ورودی صحیح نیست");
+                return;
+            }
+
+            var result = Number(data1) + Number(data2);
+            console.log(result);
+        }
+        function sumArray(arr1) {
+            var result = 0
+            arr1.forEach(function (a) {
+                result = a + result
+            });
+            console.log(result)
+
+        }
+
+        function checker(numb) {
+            if (numb % 2 == 0) {
+                console.log("true")
+            } else {
+                console.log("false")
+            }
+        }
+
+        function numLargest(arr) {
+            var item = 0;
+            arr.forEach(function (a) {
+                if (a > item) {
+                    item = a
+                }
+            });
+            console.log(item)
+        }
+
+        function reverse(text) {
+            console.time()
+            var item = text.split("").reverse().join("");
+            console.log(item)
+            console.timeEnd()
+        }
+
+        function giveLenght(array) {
+            var a = 0
+            array.forEach(function (item) {
+                if (item.length > 5) {
+                    a = item
+                    console.log(a + "=" + a.length)
+                }
+            });
+        }
+
+        function concat(arr1, arr2) {
+
+            var result = arr1.concat(arr2)
+            console.log(result)
+        }
+
+        function include(array) {
+            var num = 0
+            var vawels = ["a", "e", "i", "o", "u"]
+            var a = array.split("");
+            a.forEach(function (item) {
+                if (vawels.includes(item)) {
+                    num += 1
+                }
+
+            });
+            console.log(num)
+        }
+
+        // arr=[1,2,3,4,5] 
+        function evenNumber(arr) {
+            var a = []
+            arr.forEach(function (item) {
+                if (item % 2 == 0) {
+                    a.push(item)
+                }
+            });
+            console.log(a)
+        }
+
+        function palindrome(str) {
+            var a = str.split("").reverse().join("")
+            if (str == a) {
+                return true
+
+            } else {
+                return false
+            }
+        }
+
+        function indexArray(arr, value) {
+
+            console.log(arr.indexOf(value))
+        }
+
+        function factorial(str) {//10
+            var a=1
+         for(i=str;i>0;i--){
+            a=a*i
+         }
+        return a;
+        }
+
+
+    </script> -->
+
+    <script src="main.js"></script>
+   
+</body>
+
+</html>
